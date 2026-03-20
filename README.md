@@ -3,6 +3,21 @@
 ## Overview
 This project analyzes an Uber-style transportation dataset using SQL. The objective is to explore business performance across growth, revenue, rider activity, driver performance, and operational demand.
 
+## Database Schema
+The ERD below shows the relational structure used for the SQL analysis.
+
+![Database Schema](DB_Stracture.png)
+
+The database includes the following core entities:
+- `users`: platform users and account information
+- `drivers`: driver-specific attributes such as vehicle details and ratings
+- `riders`: rider activity and profile metrics
+- `trips`: trip-level operational and fare data
+- `payments`: payment transaction details
+- `reviews`: ratings and written feedback
+- `cancellations`: cancelled trip records
+- `locations`: pickup and dropoff zones
+
 ## Business Questions
 - How is customer acquisition evolving month over month?
 - Which cities generate the most riders and drivers?
@@ -23,6 +38,14 @@ This project analyzes an Uber-style transportation dataset using SQL. The object
 - Correlation analysis
 
 ## Project Files
-- `uber_analysis.sql`: main analysis queries
-- `images/`: charts and output screenshots
-- `insights.md`: summary of findings
+- `Uber_anlysis.sql`: main analysis queries
+- `DB_Stracture.png`: database schema image
+- `README.md`: project presentation
+
+## Potential Business Value
+This project shows how SQL can be used to answer practical business questions in a ride-hailing marketplace, including:
+- growth tracking
+- revenue monitoring
+- driver performance evaluation
+- rider retention analysis
+- operational hotspot detection
