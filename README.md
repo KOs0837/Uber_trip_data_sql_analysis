@@ -6,7 +6,7 @@ This project analyzes an Uber-style transportation dataset using SQL. The object
 ## Database Schema
 The ERD below shows the relational structure used for the SQL analysis.
 
-![Database Schema](DB_Stracture.png)
+![Database Schema](db_schema.png)
 
 The database includes the following core entities:
 - `users`: platform users and account information
